@@ -2,6 +2,6 @@
 import React from 'react'
 
 function Welcome(props) {
-  return (<h1>"Hey !" {props.name}<h2>{props.children}</h2></h1>)
+  return (<h1>"Hey !" {props.name}<h2>"Welcome to Newton School."</h2></h1>)
 }
 export default Welcome
